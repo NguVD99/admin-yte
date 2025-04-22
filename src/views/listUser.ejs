@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh Sách User</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+    <div class="admin-container">
+        <div class="grid">
+            <div class="grid__row">
+                <div class="grid__column-2">
+                    <nav class="category">
+                        <h3 class="category__headding">
+                            <i class="category__headding-icon fa-solid fa-list"></i>
+                            Admin
+                        </h3>
+                        <ul class="category-list">
+                            <li class="category-item category-item--active">
+                                <a href="/admin" class="category-item__link">Trang chủ</a>
+                            </li>
+                            <li class="category-item">
+                                <a href="/home" class="category-item__link">Trang Home</a>
+                            </li>
+                            <li class="category-item">
+                                <a href="/listuser" class="category-item__link">Danh sách User</a>
+                            </li>
+                            <li class="category-item">
+                                <a href="/adduser" class="category-item__link">Thêm tài khoản</a>
+                            </li>
+                            <li class="category-item">
+                                <a href="/editpassword" class="category-item__link">Đổi mật khẩu</a>
+                            </li>
+                            <li class="category-item">
+                                <a href="#" class="category-item__link">Đăng xuất</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="grid__column-10">
+                    <div class="grid__column-1">                        
+                        <div class="home-admin">
+                            <h4>Danh sách người dùng</h4>
+                        </div>
+                        <div>
+                            <form class="seach-user" action="">
+                                <input class="input-seach" type="text">
+                                <button class="btn-seach">Tìm</button>
+                            </form>
+                        </div>
+                        <div class="btn-delete">
+                            <form action="">
+                                <button class="btn-delete-red">Xóa toàn bộ tài khoản</button>
+                            </form>
+                        </div>
+                        <div class="admin-table table-responsive">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Username</th>
+                                        <th>Password</th>
+                                        <th>Nội dung</th>
+                                        <th>STK</th>
+                                        <th>Họ và tên</th>
+                                        <th>Liên hệ</th>
+                                        <th>ND Xác Nhận / Từ Chối</th>
+                                        <th>Trạng thái</th>
+                                        <th>Hành động</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Nguyễn Văn A</td>
+                                        <td>12345678</td>
+                                        <td>
+                                            NGUYEN VAN A là Bố NGUYEN VAN B được ủy quyền nhận tất toàn từ bảo hiểm. 
+                                            <br> Tổng số tiền được bồi thường là 2.268.000 VNDNGUYEN VAN A là Bố NGUYEN VAN B được ủy quyền nhận tất toàn từ bảo hiểm. 
+                                            <br> Tổng số tiền được bồi thường là 2.268.000 VND
+                                        </td>
+                                        <td>0123456789</td>
+                                        <td>Nguyễn Văn A</td>
+                                        <td>0912345678</td>
+                                        <td>1</td>
+                                        <td><span>Đang chờ</span></td>
+                                        <td>
+                                            <form action="">
+                                                <button class="form-submit">Chỉnh Sửa</button>
+                                            </form>
+                                            <form action="">
+                                                <button class="form-submit">Xóa</button>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Nguyễn Văn B</td>
+                                        <td>12345678</td>
+                                        <td>
+                                            NGUYEN VAN A là Bố NGUYEN VAN B được ủy quyền nhận tất toàn từ bảo hiểm. 
+                                            <br> Tổng số tiền được bồi thường là 2.268.000 VNDNGUYEN VAN A là Bố NGUYEN VAN B được ủy quyền nhận tất toàn từ bảo hiểm. 
+                                            <br> Tổng số tiền được bồi thường là 2.268.000 VND
+                                        </td>
+                                        <td>0123456789</td>
+                                        <td>Nguyễn Văn B</td>
+                                        <td>0912345678</td>
+                                        <td>1</td>
+                                        <td><span>Đang chờ</span></td>
+                                        <td>
+                                            <form action="">
+                                                <button class="form-submit">Chỉnh Sửa</button>
+                                            </form>
+                                            <form action="">
+                                                <button class="form-submit">Xóa</button>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thêm User</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+    <div class="admin-container">
+        <div class="grid">
+            <div class="grid__row">
+                <div class="grid__column-2">
+                    <nav class="category">
+                        <h3 class="category__headding">
+                            <i class="category__headding-icon fa-solid fa-list"></i>
+                            Admin
+                        </h3>
+    
+                        <ul class="category-list">
+                            <li class="category-item category-item--active">
+                                <a href="/admin" class="category-item__link">Trang chủ</a>
+                            </li>
+                            <li class="category-item">
+                                <a href="/home" class="category-item__link">Trang Home</a>
+                            </li>
+                            <li class="category-item">
+                                <a href="/listuser" class="category-item__link">Danh sách User</a>
+                            </li>
+                            <li class="category-item">
+                                <a href="/adduser" class="category-item__link">Thêm tài khoản</a>
+                            </li>
+                            <li class="category-item">
+                                <a href="/editpassword" class="category-item__link">Đổi mật khẩu</a>
+                            </li>
+                            <li class="category-item">
+                                <a href="#" class="category-item__link">Đăng xuất</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="grid__column-10">
+                    <div class="admin-product">
+                        <div class="grid__row">
+                            <div class="grid__column-1">
+                                <div class="main">
+                                    <form action="" method="POST" class="form">
+                                        <h3 class="heading">Thêm tài khoản mới</h3>
+                                    
+                                        <div class="spacer"></div>
+                            
+                                        <div class="form-group">
+                                            <label for="mypw" class="form-lable">Tên Đăng Nhập</label>
+                                            <input type="password" id="mypw" name="oldPassword" required class="from-control" />
+                                            <span class="form-message"></span>
+                                        </div>
+                            
+                                        <div class="form-group">
+                                            <label for="mypwn" class="form-lable">Mật Khẩu</label>
+                                            <input type="password" id="mypwn" name="newPassword" required class="from-control" />
+                                            <span class="form-message"></span>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="mypwn" class="form-lable">Nội Dung Bồi Thường</label>
+                                            <input type="password" id="mypwn" name="newPassword" required class="from-control" />
+                                            <span class="form-message"></span>
+                                        </div>
+
+                                        <p class="note-add">Lưu ý : nút dấu ngoặc BR là để xuống dòng ở khách vui lòng không xóa</p>
+                            
+                                        <button class="form-submit">Tạo Tài Khoản</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
